@@ -1,7 +1,7 @@
 # HPC Project — Part 1: Data Locality and Labeled Prefetcher
 
 This project benchmarks multiple **data locality mechanisms** for efficient data movement and training throughput in PyTorch, using ECG windows as a test workload.  
-It measures the effect of cache-friendly batching, pinned memory, and asynchronous transfers — culminating in the LABL prefetcher (A4).
+It measures the effect of cache-friendly batching, pinned memory, and asynchronous transfers — <<culminating in the (EXPERIMENTAL WIP) LABL prefetcher (A4).>>
 
 ---
 
@@ -40,4 +40,5 @@ PART-1/
 │   ├── throughput_comparison_A0_A4.png
 │   └── time_breakdown_batch512_A0_A4.png
 ````
+
 
